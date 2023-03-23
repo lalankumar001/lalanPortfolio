@@ -1,0 +1,9 @@
+.AboutMeText  h4 {
+    font-family: 'EB Garamond', serif;
+    color: red;
+    /* below font for cursive writting */
+    /* font-family: 'Passions Conflict', cursive; */
+    }
+    .AboutMeText h5{
+        color: red;
+    }

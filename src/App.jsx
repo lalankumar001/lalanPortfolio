@@ -1,12 +1,13 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+
 import Navbar from "./Components/Navbar/Navbar";
-import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import About from "./Pages/About/About"
-// import Project from "./Pages/Project"
-// import Work from './pages/Work/Work'
+import Project from './Pages/Project/Project'
+import Contact from './Pages/Contact/Contact'
+import Blog from './Pages/Blog/Blog'
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
 
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
       <Routes>
         <Route exact path="/" Component={Home}/>
         <Route exact path="/About" Component={About}/>
-        {/* <Route exact path="/Skills" Component={Work}/>
-        <Route exact path="/Work" Component={Skills}/>
-        <Route exact path="/Contact" Component={Contact}/> */}
+        <Route exact path="/Work" Component={Project}/>
+        <Route exact path="/Project" Component={Project}/>
+        <Route exact path="/Contact" Component={Contact}/> 
+        <Route exact path="/Blog" Component={Blog}/> 
       </Routes>
-      {/* <Footer /> */}
+ 
     </div>
   );
 }

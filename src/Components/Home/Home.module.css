@@ -21,20 +21,36 @@
 
 /* About section start form here */
 .AboutSection{
-  background-color: yellow;
+  font-family: 'Libre Baskerville', serif;
+  padding: 2%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(29, 26, 26);
+}
+.AboutSection img{
+  margin-left: 30%;
+  height: 58vh;
+  width: 70%;
+  border-left: 1px solid rgb(155, 153, 153);
+  border-bottom: 1px solid rgb(132, 117, 117);
+}
+.AboutSection img:hover{
+  background-color: rgb(12, 12, 12);
 }
 
 /* Dark mode toggler css here */
  .darkModeToggle{
     font-size: 3rem;
     color: rgb(252, 6, 109);
-    margin-top: -4%;
-    float: right;
-    margin-right: 2.2%;
+    margin-top: -6%;
+    /* float: right;
+    margin-right: 2.2%; */
+    margin-left: 96%;
+    position: fixed;
   }  
 .dark *{
   background-color: white;
   color: black;
 }
-
 
